@@ -1,0 +1,303 @@
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 700px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron .lead {
+    font-family: 'Elza';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+  
+    padding-top: 7px;
+    padding-bottom: 45px;
+}
+
+.jumbotronContent {
+    max-width:
+}
+
+.navbar {
+    background-color: #414042 !important;
+}
+
+.navbar li {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+
+}
+
+.navbar li a {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+
+}
+
+
+
+.navbar li a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: #99D5CA !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    transition: .5s;
+}
+
+
+
+.collapse li .blue {
+    color: #99D5CA;
+}
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+    transition: all 200ms ease;
+}
+
+.previewImage {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 60px 30px;
+}
+
+.previewImage img {
+    width: 100%;
+    max-width: 781px;
+    height: auto;
+    
+}
+
+.projectOverviewContainer {
+    padding-left: 100px;
+}
+
+.projectOverview {
+    max-width: 1034px;
+}
+
+.projectSummary h2 {
+    text-decoration: none;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 10px;
+    
+}
+
+.projectSummary p {
+    width: 608px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+
+.projectSummary2 h2 {
+    text-decoration: none;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 10px;
+
+}
+
+.projectSummary2 p {
+    width: 608px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    
+}
+
+.projectSummary2 p {
+    width: 288px;
+}
+
+.projectSummary2 span {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #414042;
+}
+
+@media only screen and (max-width: 875px) {
+
+.jumbotron .display-4 {
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 629px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 46px;
+}
+
+.jumbotron .lead {
+    font-family: 'Elza';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 7px;
+}
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 24px;
+    position: absolute;
+}
+
+.navbar-toggler {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.navbar-nav .nav-item {
+    padding-bottom: 20px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 350px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 74px;
+}
+
+.jumbotron .lead {
+    font-family: 'Elza';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 4px;
+}
+
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 24px;
+    position: absolute;
+}
+
+.navbar-toggler {
+    margin-bottom: 24px;
+}
+
+.navbar-nav .nav-item {
+    padding-bottom: 20px;
+}
+
+}
+
