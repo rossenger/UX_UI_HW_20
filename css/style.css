@@ -129,7 +129,7 @@
     max-width: 1034px;
 }
 
-.projectSummary h2 {
+.projectSummary h2, .problem h2, .solution h2 {
     text-decoration: none;
     font-family: 'elza-narrow';
     font-style: normal;
@@ -147,6 +147,17 @@
 
 .projectSummary p {
     width: 608px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+.problem p, .solution p {
+    width: 489px;
     font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 400;
@@ -197,6 +208,166 @@
     color: #414042;
 }
 
+#viewPrototype {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#viewPrototypeContainer {
+    padding-top: 60px;
+    padding-bottom: 320px;
+}
+
+#viewPrototype {
+    background-color: #99D5CA;
+    color: #414042;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'elza-narrow';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 93.5%;
+    text-align: center;
+}
+
+#viewPrototype:hover {
+    background-color: #414042;
+    color: #99D5CA;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'elza-narrow';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 93.5%;
+    text-align: center;
+    transition: .5s;
+}
+
+#viewPrototypeContainer a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.h2Container {
+   display: flex;
+   justify-content: center;
+}
+
+h2 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 20px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 343px;
+}
+
+.designProcessGraphic {
+    width: 100%;
+    max-width: 823px;
+    height: auto;
+}
+
+.designProcessContainer {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.researchGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.researchGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.pContainer {
+    max-width: 608px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.pContainer ul {
+    font-family: 'Elza';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.pContainer li {
+    padding-bottom: 20px;
+}
+
+.normalList {
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.normalList span {
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 225px;
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+    max-width: 1034px;
+    height: auto;
+}
+
+
 @media only screen and (max-width: 875px) {
 
 .jumbotron .display-4 {
@@ -241,6 +412,35 @@
 
 .navbar-nav .nav-item {
     padding-bottom: 20px;
+}
+
+.projectOverviewContainer {
+    padding-left: 60px;
+}
+
+.projectSummary, .projectSummary2 {
+    padding-bottom: 30px;
+}
+
+.problem p, .solution p {
+    width: 608px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 }
@@ -297,6 +497,80 @@
 
 .navbar-nav .nav-item {
     padding-bottom: 20px;
+}
+
+.projectOverviewContainer {
+    padding-left: 0px;
+}
+
+.projectSummary p {
+    width: 340px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+.projectSummary2 p {
+    width: 340px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    
+}
+
+.projectSummary2 p {
+    width: 340px;
+}
+
+.projectSummary2 {
+    padding-bottom: 30px;
+}
+
+.projectOverview .problem p, .projectOverview .solution p {
+    width: 340px;
+}
+
+.projectSummary {
+    padding-bottom: 30px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.researchGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.pContainer {
+    max-width: 608px;
+    margin: 0 auto;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 }
