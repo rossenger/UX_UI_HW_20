@@ -632,6 +632,10 @@ h3 {
     padding-bottom: 20px;
 }
 
+.navbar li a: active {
+    text-decoration-skip-ink: none;
+}
+
 .projectOverviewContainer {
     padding-left: 0px;
 }
