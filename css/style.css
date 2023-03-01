@@ -299,6 +299,11 @@ h2 {
     padding-bottom: 300px;
 }
 
+#research {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
 .researchGraphicContainer {
     display: flex;
     justify-content: center;
@@ -378,10 +383,16 @@ h3 {
     height: 50vh;
 }
 
+#definition {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
 .definitionGraphicContainer {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    padding-top: 60px;
 }
 
 .definitionGraphic {
@@ -416,6 +427,7 @@ h3 {
     padding-top: 45px;
     padding-bottom: 45px;
 }
+
 
 .ideationGraphicContainer {
     display: flex;
@@ -476,6 +488,77 @@ h3 {
     color: #414042;
 }
 
+.prototype3 {
+    width: 791px;
+    height: 482px;
+}
+
+.prototype4 {
+    width: 243px;
+    height: 486px;
+}
+
+.prototype5 {
+    width: 799px;
+    height: 485px;
+}
+
+.prototype6 {
+    width: 238px;
+    height: 497px;
+}
+
+.prototype7 {
+    width: 791px;
+    height: 481px;
+}
+
+.prototype8 {
+    width: 243px;
+    height: 482px;
+}
+
+.futureOpportunities {
+    padding-top: 250px;
+}
+
+.topIcon {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.topIcon img {
+    width: 46px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#top {
+    scroll-behavior: auto;
+}
+
+footer {
+    background-color: #414042;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    
+}
 
 
 @media only screen and (max-width: 875px) {
@@ -516,12 +599,13 @@ h3 {
 }
 
 .navbar-toggler {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-nav .nav-item {
     padding-bottom: 20px;
+    padding-top: 12px;
 }
 
 .projectOverviewContainer {
@@ -547,7 +631,7 @@ h3 {
 .carouselContainer {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 200px;
     padding-left: 100px;
     padding-right: 100px;
 }
