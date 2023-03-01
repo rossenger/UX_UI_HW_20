@@ -5,7 +5,7 @@
 }
 
 .jumbotron .display-4 {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -19,7 +19,7 @@
 }
 
 .jumbotron .lead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 400;
     font-size: 34px;
@@ -215,8 +215,12 @@
     text-decoration: none;
 }
 
-#viewPrototypeContainer {
+#viewPrototypeContainerDesktop {
     padding-top: 60px;
+}
+
+#viewPrototypeContainerMobile {
+    padding-top: 40px;
     padding-bottom: 320px;
 }
 
@@ -253,7 +257,7 @@
     transition: .5s;
 }
 
-#viewPrototypeContainer a {
+#viewPrototypeContainerDesktop a, #viewPrototypeContainerMobile a {
     text-decoration: none;
     text-decoration-line: none;
 }
@@ -324,7 +328,7 @@ h3 {
 }
 
 .pContainer ul {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
@@ -337,7 +341,7 @@ h3 {
 }
 
 .normalList {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -346,7 +350,7 @@ h3 {
 }
 
 .normalList span {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -367,11 +371,117 @@ h3 {
     height: auto;
 }
 
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.definitionGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.definitionGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 45px 100px 45px 100px;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-width: 1034px;
+    height: auto;
+}
+
+.boldItalic {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #414042;
+    
+}
+
+.insightProblem {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.ideationGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 195px;
+}
+
+.prototypeGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 237px;
+}
+
+.prototypeGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 1034px;
+    height: 487px;
+}
+
+.prototype1 {
+    width: 788px;
+    height: 482px;
+}
+
+.prototype1 {
+    width: 246px;
+    height: 487px;
+}
+
+.testingGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 237px;
+}
+
+.testingGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.bold span {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #414042;
+}
+
+
 
 @media only screen and (max-width: 875px) {
 
 .jumbotron .display-4 {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -383,7 +493,7 @@ h3 {
 }
 
 .jumbotron .lead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 400;
     font-size: 34px;
@@ -415,7 +525,7 @@ h3 {
 }
 
 .projectOverviewContainer {
-    padding-left: 60px;
+    padding-left: 80px;
 }
 
 .projectSummary, .projectSummary2 {
@@ -437,10 +547,33 @@ h3 {
 .carouselContainer {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 634px;
+    height: 299px;
+}
+
+.prototype1 {
+    width: 483px;
+    height: 295px;
+}
+
+.prototype2 {
+    width: 151px;
+    height: 299px;
+    
 }
 
 }
@@ -456,7 +589,7 @@ h3 {
 }
 
 .jumbotron .display-4 {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
@@ -468,7 +601,7 @@ h3 {
 }
 
 .jumbotron .lead {
-    font-family: 'Elza';
+    font-family: 'elza-narrow';
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
@@ -568,7 +701,69 @@ h3 {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 180px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+
+.definitionGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 45px 24px 45px 24px;;
+}
+
+.ideationGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.prototypeGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 357px;
+    height: 168px;
+}
+
+.prototype1 {
+    width: 272px;
+    height: 166px;
+}
+
+.prototype2 {
+    width: 85px;
+    height: 168px;
+    
+}
+
+.testingGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
