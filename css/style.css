@@ -624,12 +624,19 @@ h3 {
     position: absolute;
 }
 
+.container .navbar-toggler {
+    color: white;
+}
+
 .navbar-toggler {
-    margin-bottom: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white !important;
 }
 
 .navbar-nav .nav-item {
     padding-bottom: 20px;
+    padding-top: 12px;
 }
 
 .navbar li a:active {
