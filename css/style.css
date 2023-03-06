@@ -50,7 +50,7 @@
     letter-spacing: 0.15em;
     font-weight: 300;
     font-family: 'elza-narrow';
-
+    text-decoration-skip-ink: none;
 }
 
 .navbar li a {
@@ -221,7 +221,7 @@
 
 #viewPrototypeContainerMobile {
     padding-top: 40px;
-    padding-bottom: 320px;
+    padding-bottom: 120px;
 }
 
 #viewPrototype {
@@ -285,7 +285,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    padding-bottom: 343px;
+    padding-bottom: 200px;
 }
 
 .designProcessGraphic {
@@ -520,6 +520,22 @@ h3 {
 
 .futureOpportunities {
     padding-top: 250px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+  }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
 }
 
 .topIcon {
@@ -864,4 +880,3 @@ footer {
 }
 
 }
-
